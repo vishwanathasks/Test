@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Selenium Testing Project]">
+  <test thread-count="5" name="Log in case(failed)">
+    <classes>
+      <class name="com.wipro.testcases.TC_01_Login">
+        <methods>
+          <include name="initialize"/>
+          <include name="closeBrowser"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.wipro.testcases.TC_01_Login -->
+    </classes>
+  </test> <!-- Log in case(failed) -->
+</suite> <!-- Failed suite [Selenium Testing Project] -->

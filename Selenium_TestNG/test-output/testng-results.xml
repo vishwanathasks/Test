@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="My Project" duration-ms="39567" started-at="2018-10-24T06:28:13Z" finished-at="2018-10-24T06:28:53Z">
+    <groups>
+    </groups>
+    <test name="login test case" duration-ms="39469" started-at="2018-10-24T06:28:13Z" finished-at="2018-10-24T06:28:53Z">
+      <class name="com.wipro.testcases.TC_01_Login">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.wipro.testcases.TC_01_Login@cc285f4]" name="login" duration-ms="39406" started-at="2018-10-24T06:28:13Z" finished-at="2018-10-24T06:28:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.wipro.testcases.TC_01_Login -->
+    </test> <!-- login test case -->
+    <test name="search test case" duration-ms="9" started-at="2018-10-24T06:28:53Z" finished-at="2018-10-24T06:28:53Z">
+      <class name="com.wipro.testcases.TC_02_SearchProduct">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.wipro.testcases.TC_02_SearchProduct@685cb137]" name="initialize" is-config="true" duration-ms="24434" started-at="2018-10-24T06:27:49Z" finished-at="2018-10-24T06:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="Search()[pri:0, instance:com.wipro.testcases.TC_02_SearchProduct@685cb137]" name="Search" duration-ms="5" started-at="2018-10-24T06:28:53Z" finished-at="2018-10-24T06:28:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.wipro.testcases.TC_02_SearchProduct@685cb137]" name="closeBrowser" is-config="true" duration-ms="694" started-at="2018-10-24T06:28:53Z" finished-at="2018-10-24T06:28:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.wipro.testcases.TC_02_SearchProduct -->
+    </test> <!-- search test case -->
+  </suite> <!-- My Project -->
+</testng-results>
